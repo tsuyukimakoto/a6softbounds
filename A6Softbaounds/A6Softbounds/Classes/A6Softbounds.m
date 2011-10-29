@@ -168,14 +168,18 @@
 	// Create a base URL
 	CFURLRef baseURLRef = CFURLCreateWithFileSystemPath(kCFAllocatorDefault, (CFStringRef)[NSString stringWithFormat:@"%@/%@", _exportPath, path], kCFURLPOSIXPathStyle, true);
     NSURL* path_directory = [baseURLRef URLByDeletingLastPathComponent];
-	
-	// Create our full size CGImage from the provided data
-	CGImageSourceRef imageSourceRef = CGImageSourceCreateWithData((CFDataRef)imageData, NULL);
-	CGImageRef image = CGImageSourceCreateImageAtIndex(imageSourceRef, 0, NULL);
+
+	CGImageRef image;
+    
+    NSImage *im = [[NSImage alloc] initWithData:imageData];
+    NSBitmapImageRep *bitmap = [NSBitmapImageRep imageRepWithData:[im TIFFRepresentation]];
+	image = [bitmap CGImage];
+
     CFDictionaryRef* metadata = (CFDictionaryRef *)[[_exportManager propertiesWithoutThumbnailForImageAtIndex:index] retain];
     CFDictionarySetValue(metadata, kCGImageDestinationLossyCompressionQuality, [NSNumber numberWithFloat:A6SOFTBOUNDS_QUALITY]);
     float width = CGImageGetWidth(image);
     float height = CGImageGetHeight(image);
+    
     
     float image_aspect_ratio = width/height;
     //bool  landscape = (image_aspect_ratio > A6SOFTBOUNDS_ASPECT_RATIO); // more wide image.
