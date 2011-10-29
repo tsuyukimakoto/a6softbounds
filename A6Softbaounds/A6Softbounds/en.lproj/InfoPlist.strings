@@ -1,0 +1,5 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "A6Softbounds";
+CFBundleGetInfoString = "A6Softbounds version 1.0, Copyright (c) 2011 makoto tsuyuki";
+NSHumanReadableCopyright = "© 2011 makoto tsuyuki";

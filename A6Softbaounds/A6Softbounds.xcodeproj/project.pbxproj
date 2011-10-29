@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E41DD58145BE0CF00FA260F /* A6Softbounds.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E41DD57145BE0CF00FA260F /* A6Softbounds.xib */; };
+		0EBEA5F4145BB77F00FE1EE0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBEA5F3145BB77F00FE1EE0 /* Cocoa.framework */; };
+		0EBEA5F6145BB77F00FE1EE0 /* PluginManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBEA5F5145BB77F00FE1EE0 /* PluginManager.framework */; };
+		0EBEA600145BB77F00FE1EE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EBEA5FE145BB77F00FE1EE0 /* InfoPlist.strings */; };
+		0EBEA603145BB77F00FE1EE0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EBEA602145BB77F00FE1EE0 /* Info.plist */; };
+		0EBEA612145BD2D400FE1EE0 /* A6Softbounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBEA608145BB77F00FE1EE0 /* A6Softbounds.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E41DD57145BE0CF00FA260F /* A6Softbounds.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = A6Softbounds.xib; sourceTree = "<group>"; };
+		0EBEA5F0145BB77F00FE1EE0 /* A6Softbounds.ApertureExport */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A6Softbounds.ApertureExport; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EBEA5F3145BB77F00FE1EE0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0EBEA5F5145BB77F00FE1EE0 /* PluginManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PluginManager.framework; path = /Library/Frameworks/PluginManager.framework; sourceTree = "<absolute>"; };
+		0EBEA5F8145BB77F00FE1EE0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		0EBEA5F9145BB77F00FE1EE0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		0EBEA5FA145BB77F00FE1EE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0EBEA5FF145BB77F00FE1EE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EBEA601145BB77F00FE1EE0 /* A6Softbounds-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "A6Softbounds-Prefix.pch"; sourceTree = "<group>"; };
+		0EBEA602145BB77F00FE1EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EBEA607145BB77F00FE1EE0 /* A6Softbounds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = A6Softbounds.h; path = Classes/A6Softbounds.h; sourceTree = "<group>"; };
+		0EBEA608145BB77F00FE1EE0 /* A6Softbounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = A6Softbounds.m; path = Classes/A6Softbounds.m; sourceTree = "<group>"; };
+		0EBEA60A145BB77F00FE1EE0 /* ApertureExportManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ApertureExportManager.h; path = ApertureHeaders/ApertureExportManager.h; sourceTree = "<group>"; };
+		0EBEA60B145BB77F00FE1EE0 /* ApertureExportPlugIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ApertureExportPlugIn.h; path = ApertureHeaders/ApertureExportPlugIn.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EBEA5ED145BB77F00FE1EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EBEA5F4145BB77F00FE1EE0 /* Cocoa.framework in Frameworks */,
+				0EBEA5F6145BB77F00FE1EE0 /* PluginManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EBEA5E5145BB77E00FE1EE0 = {
+			isa = PBXGroup;
+			children = (
+				0EBEA5FB145BB77F00FE1EE0 /* A6Softbounds */,
+				0EBEA5F2145BB77F00FE1EE0 /* Frameworks */,
+				0EBEA5F1145BB77F00FE1EE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EBEA5F1145BB77F00FE1EE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EBEA5F0145BB77F00FE1EE0 /* A6Softbounds.ApertureExport */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EBEA5F2145BB77F00FE1EE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EBEA5F3145BB77F00FE1EE0 /* Cocoa.framework */,
+				0EBEA5F5145BB77F00FE1EE0 /* PluginManager.framework */,
+				0EBEA5F7145BB77F00FE1EE0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EBEA5F7145BB77F00FE1EE0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EBEA5F8145BB77F00FE1EE0 /* AppKit.framework */,
+				0EBEA5F9145BB77F00FE1EE0 /* CoreData.framework */,
+				0EBEA5FA145BB77F00FE1EE0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0EBEA5FB145BB77F00FE1EE0 /* A6Softbounds */ = {
+			isa = PBXGroup;
+			children = (
+				0EBEA606145BB77F00FE1EE0 /* Classes */,
+				0EBEA609145BB77F00FE1EE0 /* ApertureHeaders */,
+				0EBEA5FC145BB77F00FE1EE0 /* Supporting Files */,
+			);
+			path = A6Softbounds;
+			sourceTree = "<group>";
+		};
+		0EBEA5FC145BB77F00FE1EE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EBEA5FE145BB77F00FE1EE0 /* InfoPlist.strings */,
+				0EBEA601145BB77F00FE1EE0 /* A6Softbounds-Prefix.pch */,
+				0EBEA602145BB77F00FE1EE0 /* Info.plist */,
+				0E41DD57145BE0CF00FA260F /* A6Softbounds.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EBEA606145BB77F00FE1EE0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0EBEA607145BB77F00FE1EE0 /* A6Softbounds.h */,
+				0EBEA608145BB77F00FE1EE0 /* A6Softbounds.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		0EBEA609145BB77F00FE1EE0 /* ApertureHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				0EBEA60A145BB77F00FE1EE0 /* ApertureExportManager.h */,
+				0EBEA60B145BB77F00FE1EE0 /* ApertureExportPlugIn.h */,
+			);
+			name = ApertureHeaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EBEA5EF145BB77F00FE1EE0 /* A6Softbounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EBEA60F145BB77F00FE1EE0 /* Build configuration list for PBXNativeTarget "A6Softbounds" */;
+			buildPhases = (
+				0EBEA5EC145BB77F00FE1EE0 /* Sources */,
+				0EBEA5ED145BB77F00FE1EE0 /* Frameworks */,
+				0EBEA5EE145BB77F00FE1EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = A6Softbounds;
+			productName = A6Softbounds;
+			productReference = 0EBEA5F0145BB77F00FE1EE0 /* A6Softbounds.ApertureExport */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EBEA5E7145BB77E00FE1EE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0EBEA5EA145BB77E00FE1EE0 /* Build configuration list for PBXProject "A6Softbounds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0EBEA5E5145BB77E00FE1EE0;
+			productRefGroup = 0EBEA5F1145BB77F00FE1EE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EBEA5EF145BB77F00FE1EE0 /* A6Softbounds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EBEA5EE145BB77F00FE1EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EBEA600145BB77F00FE1EE0 /* InfoPlist.strings in Resources */,
+				0EBEA603145BB77F00FE1EE0 /* Info.plist in Resources */,
+				0E41DD58145BE0CF00FA260F /* A6Softbounds.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EBEA5EC145BB77F00FE1EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EBEA612145BD2D400FE1EE0 /* A6Softbounds.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0EBEA5FE145BB77F00FE1EE0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EBEA5FF145BB77F00FE1EE0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EBEA60D145BB77F00FE1EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks//**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		0EBEA60E145BB77F00FE1EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks//**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		0EBEA610145BB77F00FE1EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Library/Frameworks//**",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "A6Softbounds/A6Softbounds-Prefix.pch";
+				INFOPLIST_FILE = A6Softbounds/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Application Support/Aperture/Plug-Ins/Export/";
+				PRODUCT_NAME = A6Softbounds;
+				WRAPPER_EXTENSION = ApertureExport;
+			};
+			name = Debug;
+		};
+		0EBEA611145BB77F00FE1EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Library/Frameworks//**",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "A6Softbounds/A6Softbounds-Prefix.pch";
+				INFOPLIST_FILE = A6Softbounds/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Application Support/Aperture/Plug-Ins/Export/";
+				PRODUCT_NAME = A6Softbounds;
+				WRAPPER_EXTENSION = ApertureExport;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EBEA5EA145BB77E00FE1EE0 /* Build configuration list for PBXProject "A6Softbounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EBEA60D145BB77F00FE1EE0 /* Debug */,
+				0EBEA60E145BB77F00FE1EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EBEA60F145BB77F00FE1EE0 /* Build configuration list for PBXNativeTarget "A6Softbounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EBEA610145BB77F00FE1EE0 /* Debug */,
+				0EBEA611145BB77F00FE1EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EBEA5E7145BB77E00FE1EE0 /* Project object */;
+}
