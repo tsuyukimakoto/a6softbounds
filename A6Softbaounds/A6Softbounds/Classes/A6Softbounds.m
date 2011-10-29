@@ -245,10 +245,10 @@
         CGImageDestinationAddImage(dest, img, metadata);
         CGImageDestinationFinalize(dest);
         CFRelease(dest);
+        CFRelease(img);
     }
     CFRelease(metadata);
     CFRelease(image);
-//    [path_directory release];
 	return NO;	
 }
 
